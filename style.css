@@ -47,6 +47,11 @@ table {
 	border-spacing: 0;
 }
 
+svg {
+    fill: white;
+    width: 1rem;
+    height: 1rem;
+}
 
 #container {
     height: 100vh;
@@ -62,6 +67,11 @@ table {
     display: grid;
     grid-template-rows: 1fr 10fr;
     background-color: aquamarine;
+}
+
+#logo svg {
+    width: 2rem;
+    height: 2rem;
 }
 
 #nav {
